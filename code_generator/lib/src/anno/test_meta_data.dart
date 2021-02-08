@@ -1,0 +1,3 @@
+class TestMetaData {
+  const TestMetaData();
+}

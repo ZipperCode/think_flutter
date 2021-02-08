@@ -1,0 +1,15 @@
+
+builders:
+  testBuilder:
+    import: "package:code_generator/code_generator.dart"
+    builder_factories: ["testBuilder"]
+    build_extensions: {".dart": [".g.part"]}
+    auto_apply: root_package
+    build_to: source
+
+  codeBuilder:
+    import: "package:code_generator/code_generator.dart"
+    builder_factories: [ "codeBuilder" ]
+    build_extensions: { ".dart": [ ".g.part" ] }
+    auto_apply: root_package
+    build_to: source
